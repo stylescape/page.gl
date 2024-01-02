@@ -8,14 +8,14 @@
 ---
 
 <div>
-    <img align="right" src="https://raw.githubusercontent.com/scape-agency/brand/master/src/logo/page.gl.png" width="96" alt="Scape Agency Logo">
+    <img align="right" src="https://raw.githubusercontent.com/scape-agency/brand/master/src/logo/page.gl.png" width="96" alt="page.gl Logo">
     <h1 align="left">page.gl</h1>
     <h3 align="left">Stylescape Layout Template Library</h3>
 </div>
 
 ---
 
-<img align="right" width="75%" src="https://raw.githubusercontent.com/scape-agency/brand/master/src/image/repository_cover/block_foundation-structure-03-accent.jpg"  alt="Scape Agency Brand">
+<img align="right" width="50%" src="/res/page.gl.png"  alt="page.gl">
 
 ### Contents
 
@@ -40,21 +40,50 @@
 
 ## Introduction
 
-Stylescape Layout Template Library<
+Welcome to `page.gl`, a comprehensive collection of layout templates created using Jinja. These templates are designed to simplify the process of web page creation, offering a variety of layouts that cater to different styles and purposes. Whether you're building a personal blog, a business site, or a creative portfolio, `page.gl` has something to offer.
+
+## Features
+
+- **Diverse Collection of Layouts**: Choose from a wide range of template designs, from minimalistic to complex.
+- **Jinja-Powered Templates**: Easy integration with Python-based web applications.
+- **Responsive Design**: All templates are built to be fully responsive, ensuring compatibility with various devices and screen sizes.
+- **Well-Documented Code**: Each template is thoroughly documented, making customization and integration straightforward.
 
 ## Installation
 
-### HTML Script Tag
+To use `page.gl` templates in your project, follow these simple steps:
 
-``` html
-<script src="https://unpkg.com/page.gl@latest/dist.min.js"></script>
-```
+### GIT
+
+1. **Clone the Repository**
+
+   ``` sh
+   git clone https://github.com/scape-agency/page.gl.git
+   ```
+
+2. **Navigate to the Repository**
+
+   ``` sh
+   cd page.gl
+   ```
+
+3. **Choose a Template**
+
+   - Browse through the template collection and select one that suits your needs.
+   - Copy the Jinja template files into your project.
+
 
 ### NPM Module
 
 ``` bash
 npm i page.gl
 ```
+
+## Usage
+
+- Integrate the Jinja templates into your Python web application.
+- Customize the templates as needed to fit the style and branding of your website.
+- Utilize the well-documented code to tweak layouts, styles, and functionalities.
 
 ## Templates
 
