@@ -1,0 +1,8 @@
+<!-- Forms -->
+<form action="{{ form_action }}" method="post">
+    {% for field in form_fields %}
+    <label for="{{ field.id }}">{{ field.label }}</label>
+    <input type="{{ field.type }}" id="{{ field.id }}" name="{{ field.name }}">
+    {% endfor %}
+    <input type="submit" value="Submit">
+</form>
