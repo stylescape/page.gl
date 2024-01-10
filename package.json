@@ -1,7 +1,7 @@
 {
     "name": "page.gl",
     "description": "Layout Template Library.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "config": {
         "version_short": "0.0"
     },
@@ -41,8 +41,8 @@
         "lint": "eslint 'src/**/*.ts' || true",
         "prettify": "prettier --write 'src/**/*.ts'",
         "build": "npm run build-compile && npm run build-process",
-        "build-compile": "tsc -p script/tsconfig.json",
-        "build-process": "node script/js/index.js",
+        "build-compile": "tsc -p bin/tsconfig.json",
+        "build-process": "node bin/js/index.js",
         "webpack-build": "npm run webpack-prod",
         "webpack-dev": "webpack --mode development --config webpack.config.js",
         "webpack-prod": "webpack --mode production --config webpack.config.js",
@@ -94,24 +94,7 @@
         "webpack-merge": "^5.9.0"
     },
     "files": [
-        "dist/js/**/*.{js,map}",
-        "dist/css/**/*.{css,map}",
-        "dist/font/**/*.{eot,otf,ttf,woff,woff2}",
-        "src/ts/**/*.ts",
-        "src/scss/**/*.scss",
-        "src/font/**/*.{ttf,woff,woff2}"
-    ],
-    "hugo-bin": {
-        "buildTags": "extended"
-    },
-    "jspm": {
-        "registry": "npm",
-        "main": "dist/js/page.gl.js",
-        "directories": {
-            "lib": "src"
-        },
-        "shim": {},
-        "dependencies": {},
-        "peerDependencies": {}
-    }
+        "src/**",
+        "dist/**"
+    ]
 }
