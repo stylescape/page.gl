@@ -1,8 +1,21 @@
-{# Copyright 2024 Scape Agency BV #}
+{# 
+    Copyright 2024 Scape Agency BV
+#}
 
-<!-- Ordered List -->
+{# 
+    Ordered List <ol>
+    ===========================================================================
+    This code snippet generates an ordered list (<ol>) dynamically using Jinja2
+    templating. Each item in the `list_variable` is rendered as a list item (<li>).
+
+    Variables:
+    - `list_variable`: A list of items to be included in the ordered list.
+    The `| e` filter is used to escape any special characters in the items to
+    prevent XSS attacks.
+#}
+
 <ol>
-{% for item in list_variable %}
-    <li>{{ item }}</li>
-{% endfor %}
+    {% for item in list_variable %}
+        <li>{{ item | e }}</li>
+    {% endfor %}
 </ol>
