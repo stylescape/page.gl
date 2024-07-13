@@ -1,15 +1,17 @@
+{# Copyright 2024 Scape Agency BV #}
+
 <!-- Tables -->
 <table>
-<tr>
-    {% for header in table_headers %}
-    <th>{{ header }}</th>
-    {% endfor %}
-</tr>
-{% for row in table_rows %}
     <tr>
-    {% for cell in row %}
-        <td>{{ cell }}</td>
-    {% endfor %}
+        {% for header in table_headers %}
+        <th>{{ header }}</th>
+        {% endfor %}
     </tr>
-{% endfor %}
+    {% for row in table_rows %}
+        <tr>
+        {% for cell in row %}
+            <td>{{ cell }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
 </table>
