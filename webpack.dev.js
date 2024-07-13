@@ -70,13 +70,15 @@ export const configDevelopment = {
 
         // Serve test page
         new HtmlWebpackPlugin({
-            template: "./test/index.html",
+            template: "./src/jinja/index.html.jinja",
             // template: paths.src + "/index.html", // Specify the HTML template to use
             // title: "Development Mode", // Optional: Specify a title for the HTML document
             // favicon: paths.public + "/favicon.ico" // Optional: Specify a favicon
+            templateParameters: {
+                username: 'Joe'
+            }
         }),
     ],
-
 
 
     // Configuration | Performance
