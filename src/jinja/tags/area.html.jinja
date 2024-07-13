@@ -1,6 +1,15 @@
-{# Area (<area>): #}
+{# Copyright 2024 Scape Agency BV #}
 
 
-<map name="{{ map_name }}">
-    <area shape="{{ shape }}" coords="{{ coordinates }}" href="{{ url }}" alt="{{ alt_text }}">
+{# Area (<area>  #}
+
+<map name="{{ map_name | e }}">
+    <area
+        shape="{{ shape | e }}"
+        coords="{{ coordinates | e }}"
+        href="{{ url | e }}"
+        alt="{{ alt_text | e }}"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
 </map>
