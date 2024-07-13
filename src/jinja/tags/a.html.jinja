@@ -1,3 +1,13 @@
-<!-- Links -->
-{# <a href="{{ url_variable }}">{{ link_text }}</a> #}
-<a href="{{ url_variable }}" title="{{ title_variable }}">{{ link_text }}</a>
+{# Copyright 2024 Scape Agency BV #}
+
+{# Link <a> #}
+
+<a 
+    href="{{ url_variable | e }}" 
+    title="{{ title_variable | e }}" 
+    rel="noopener noreferrer" 
+    aria-label="{{ link_text | e }}"
+    target="_blank"
+>
+    {{ link_text | e }}
+</a>
