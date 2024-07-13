@@ -240,33 +240,44 @@ const configCommon = {
             // Nunjucks Rules
             // ----------------------------------------------------------------
             // Processes Nunjucks templates
+            // {
+            //     test: /\.(njk|nunj|nunjucks|jinja)$/,
+            //     use: [
+            //         {
+            //             loader: "nunjucks-loader",
+            //             options: {
+            //                 // Specify the path to the Nunjucks configuration file
+            //                 // Adjust the path as per your project structure
+            //                 // config: path.join(__dirname, "src/nunjucks.config.js"),
+            
+            //                 // Set to true if you are using Jinja compatibility features
+            //                 jinjaCompat: true,
+            
+            //                 // Define the root directory for Nunjucks templates
+            //                 // This is where Nunjucks will look for template files
+            //                 // root: path.resolve(__dirname, "path/to/templates"),
+            
+            //                 // Optional: Suppress the "Cannot configure nunjucks
+            //                 // environment before precompile" warning
+            //                 quiet: true,
+            
+            //                 // Other Nunjucks loader specific options can be added here
+            //             }
+            //         }
+            //     ],
+            // },
+
             {
-                test: /\.(njk|nunjucks|jinja)$/,
+                // test: /\.njk$/,
+                test: /\.(njk|nunj|nunjucks|jinja)$/,
                 use: [
                     {
-                        loader: "nunjucks-loader",
-                        options: {
-                            // Specify the path to the Nunjucks configuration file
-                            // Adjust the path as per your project structure
-                            // config: path.join(__dirname, "src/nunjucks.config.js"),
-            
-                            // Set to true if you are using Jinja compatibility features
-                            jinjaCompat: true,
-            
-                            // Define the root directory for Nunjucks templates
-                            // This is where Nunjucks will look for template files
-                            // root: path.resolve(__dirname, "path/to/templates"),
-            
-                            // Optional: Suppress the "Cannot configure nunjucks
-                            // environment before precompile" warning
-                            quiet: true,
-            
-                            // Other Nunjucks loader specific options can be added here
-                        }
+                        loader: 'simple-nunjucks-loader',
+                        options: {}
                     }
-                ],
+                ]
             },
-
+            
             // Font Rules
             // ----------------------------------------------------------------
             {
