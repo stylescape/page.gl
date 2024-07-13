@@ -1,6 +1,22 @@
-{# Copyright 2024 Scape Agency BV #}
+{#
+    Copyright 2024 Scape Agency BV
+#}
 
-{# Link <a> #}
+{# 
+    Link <a>
+    ===========================================================================
+
+    This code snippet creates a hyperlink with several important attributes:
+    - `href`: The URL to which the link points.
+    - `title`: Text displayed when the mouse hovers over the link.
+    - `rel="noopener noreferrer"`: Provides security benefits by preventing the
+        new page from being able to access the window.opener property and
+        ensuring that the new page does not have a referrer.
+    - `aria-label`: Improves accessibility by providing a readable text
+        description for screen readers.
+    - `target="_blank"`: Opens the link in a new tab.
+
+#}
 
 <a 
     href="{{ url_variable | e }}" 
