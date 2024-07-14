@@ -8,6 +8,51 @@
 import webpack from "webpack";
 import paths from "./webpack.paths.js"
 import HtmlWebpackPlugin from "html-webpack-plugin"
+import MiniCssExtractPlugin from "mini-css-extract-plugin"
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// fs = require('fs');
+import fs from "fs"
+// import glob from "glob"
+import { glob, globSync, globStream, globStreamSync, Glob } from 'glob'
+
+// const glob = require('glob');
+
+
+// ============================================================================
+// Helpers
+// ============================================================================
+
+let htmlPageNames = [];
+let page_dir = './src/jinja'
+let page_ext = '.html.jinja'
+
+// const pages = fs.readdirSync(page_dir)
+const pages = await glob('**/!(_*).html.jinja');
+
+console.log(pages);
+
+pages.forEach(
+    page => {
+        if (page.endsWith(page_ext)) {
+            htmlPageNames.push(page.split(page_ext)[0])
+        }
+    }
+)
+
+// console.log(htmlPageNames);
+
+let multipleHtmlPlugins = htmlPageNames.map(
+    name => {
+        return new HtmlWebpackPlugin(
+            {
+                template: `${page_dir}/${name}${page_ext}`, // relative path to the HTML files
+                filename: `${name}${page_ext}`, // output HTML files
+                chunks: [`${name}`] // respective JS files
+            }
+        )
+    }
+);
+
 
 
 // ============================================================================
@@ -78,8 +123,27 @@ export const configDevelopment = {
                 username: 'Joe'
             }
         }),
-    ],
+    ].concat(multipleHtmlPlugins),
 
+    // plugins: [
+    //     // Enable hot reloading
+    //     // Only update what has changed on hot reload
+    //     new webpack.HotModuleReplacementPlugin(),
+
+    //     // Serve test page
+    //     new HtmlWebpackPlugin({
+    //         // baseUrl: './',
+    //         filename: "index.html",
+    //         template: "./src/html/index.html",
+    //         chunks: ["index"],
+    //         // template: paths.src + "/index.html", // Specify the HTML template to use
+    //         title: "Development Mode", // Optional: Specify a title for the HTML document
+    //         // favicon: paths.public + "/favicon.ico" // Optional: Specify a favicon
+    //     }),
+
+    //     // new MiniCssExtractPlugin(),
+
+    // ].concat(multipleHtmlPlugins),
 
     // Configuration | Performance
     // ========================================================================
