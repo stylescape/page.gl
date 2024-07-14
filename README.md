@@ -20,6 +20,10 @@
 ### Contents
 
 - [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Templates](#templates)
 - [Colophon](#colophon)
 
 <br clear="both"/>
@@ -213,10 +217,6 @@ npm i page.gl
 | `<video>`           | **Video**               | Defines a video or movie.                                                       | [M](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video), [W](https://www.w3schools.com/tags/tag_video.asp) | [C](https://github.com/scape-agency/page.gl/blob/main/src/jinja/tags/_tag_video.html.jinja) |
 | `<wbr>`             | **Word Break Opportunity** | Defines a possible line-break.                                                  | [M](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr), [W](https://www.w3schools.com/tags/tag_wbr.asp) | [C](https://github.com/scape-agency/page.gl/blob/main/src/jinja/tags/_tag_wbr.html.jinja) |
 
-## Links
-
-- [Website](https://www.page.gl)
-- [NPM](https://www.npmjs.com/package/page.gl)
 
 ---
 
@@ -232,6 +232,11 @@ Scape Agency is a spatial innovation collective that dreams, discovers and desig
 
 - website: [scape.agency](https://www.scape.agency "Scape Agency website")
 - github: [github.com/scape-agency](https://github.com/scape-agency "Scape Agency GitHub")
+
+### Links
+
+- [Website](https://www.page.gl)
+- [NPM](https://www.npmjs.com/package/page.gl)
 
 ### Development Resources
 
