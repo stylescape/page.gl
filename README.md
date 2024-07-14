@@ -90,14 +90,14 @@ npm i page.gl
 
 | **Tag**             | **Name**                | **Description**                                                                 | **Links** |
 | :------------------ | :---------------------- | :------------------------------------------------------------------------------ | :----- |
-| `<a>`               | **Anchor**              | Defines a hyperlink.                                                            | [M](), [W]() |
-| `<abbr>`            | **Abbreviation**        | Defines an abbreviation or acronym.                                             | [M](), [W]() |
-| `<acronym>`         | **...**      | Not supported in HTML5, use `<abbr>` instead.                                   | [M](), [W]() |
+| `<a>`               | **Anchor**              | Defines a hyperlink.                                                            | [M](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a), [W](https://www.w3schools.com/tags/tag_a.asp)          |
+| `<abbr>`            | **Abbreviation**        | Defines an abbreviation or acronym.                                             | [M](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr), [W]()       |
+| `<acronym>`         | **Acronym**             | Not supported in HTML5, use `<abbr>` instead.                                   | [M](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym), [W]()    |
 | `<address>`         | **...**      | Defines contact information for the author/owner of a document.                 | [M](), [W]() |
 | `<applet>`          | **...**      | Not supported in HTML5, use `<object>` instead.                                 | [M](), [W]() |
 | `<area>`            | **...**      | Defines an area inside an image map.                                            | [M](), [W]() |
 | `<article>`         | **...**      | Defines independent, self-contained content.                                    | [M](), [W]() |
-| `<aside>`           | **...**      | Defines content aside from the page content.                                    | [M](), [W]() |
+| `<aside>`           | **...**      | Defines content aside from the page content.                                    | [M](), [W](ttps://www.w3schools.com/tags/tag_article.asp) |
 | `<audio>`           | **...**      | Defines sound content.                                                          | [M](), [W]() |
 | `<b>`               | **...**      | Defines bold text.                                                              | [M](), [W]() |
 | `<base>`            | **...**      | Specifies the base URL/target for all relative URLs in a document.              | [M](), [W]() |
