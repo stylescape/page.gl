@@ -92,8 +92,8 @@ async function main() {
         // Install .gl libraries
         // --------------------------------------------------------------------
 
-        logger.header('Install .gl libraries');
-        await gl_installer();
+        // logger.header('Install .gl libraries');
+        // await gl_installer();
 
 
         // Dirs Clean
