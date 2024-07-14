@@ -1,6 +1,6 @@
 import { __awaiter } from "tslib";
 import path from 'path';
-import { DirectoryCleaner, DirectoryCopier, FileCopier, PackageCreator, VersionWriter, TypeScriptCompiler, JavaScriptMinifier, StylizedLogger, gl_installer, readPackageJson, } from 'pack.gl';
+import { DirectoryCleaner, DirectoryCopier, FileCopier, PackageCreator, VersionWriter, TypeScriptCompiler, JavaScriptMinifier, StylizedLogger, readPackageJson, } from 'pack.gl';
 const CONFIG = {
     path: {
         src: './src',
@@ -27,8 +27,6 @@ function main() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const logger = new StylizedLogger();
-            logger.header('Install .gl libraries');
-            yield gl_installer();
             const directoryCleaner = new DirectoryCleaner();
             logger.header('Clean Directories');
             directoryCleaner.cleanDirectory(CONFIG.path.dist);
@@ -42,7 +40,6 @@ function main() {
             fileCopier.copyFileToDirectory(path.join('.', 'LICENSE'), CONFIG.path.dist);
             fileCopier.copyFileToDirectory(path.join('.', 'LICENSE-CODE'), CONFIG.path.dist);
             const directoryCopier = new DirectoryCopier();
-            console.log('Files copied successfully.');
             yield directoryCopier.recursiveCopy(CONFIG.path.jinja_input, CONFIG.path.jinja_output);
             console.log('Files copied successfully.');
             const versionWriter = new VersionWriter();
