@@ -45,9 +45,8 @@ import {
 
 const CONFIG = {
     path: {
-        src:      './src',
-        dist:      './dist',
-
+        src:                './src',
+        dist:               './dist',
         svg_input:          './src/svg',
         svg_output:         './dist/svg',
         sprite_input:       './dist/svg',
@@ -137,16 +136,6 @@ async function main() {
         // --------------------------------------------------------------------
 
         const directoryCopier = new DirectoryCopier();
-        // await directoryCopier.copyFiles(
-        //     CONFIG.path.ts_input,
-        //     CONFIG.path.ts_output,
-        // );
-        // console.log('Files copied successfully.');
-        // await directoryCopier.copyFiles(
-        //     CONFIG.path.scss_input,
-        //     CONFIG.path.scss_output,
-        // );
-        console.log('Files copied successfully.');
         await directoryCopier.recursiveCopy(
             CONFIG.path.jinja_input,
             CONFIG.path.jinja_output,
@@ -174,13 +163,6 @@ async function main() {
         // console.log('TypeScript compilation completed.');
     
 
-        // Rename Ts
-        // --------------------------------------------------------------------
-
-        // await fileRenamer.renameFile(
-        //     path.join(CONFIG.path.js_output, 'index.js'),
-        //     path.join(CONFIG.path.js_output, `${packageConfig.name}.js`),
-        // )
 
 
         // Minify JavaScript
