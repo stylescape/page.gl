@@ -82,7 +82,6 @@ async function main() {
     try {
 
 
-
         // Init Logger
         // --------------------------------------------------------------------
 
@@ -150,7 +149,6 @@ async function main() {
         await versionWriter.writeVersionToFile('VERSION', packageConfig.version);
 
 
-
         // Compile TypeScript to JavaScript
         // --------------------------------------------------------------------
         const tsCompiler = new TypeScriptCompiler();
@@ -158,12 +156,8 @@ async function main() {
             path.join(CONFIG.path.ts_input, 'index.ts'),
         ];
         const outputDir = './dist/js';
-        // console.log('Starting TypeScript compilation...');
         await tsCompiler.compile(tsFiles, outputDir);
-        // console.log('TypeScript compilation completed.');
     
-
-
 
         // Minify JavaScript
         // --------------------------------------------------------------------
@@ -175,7 +169,6 @@ async function main() {
         .then(() => console.log('JavaScript minification completed.'))
         .catch(console.error);
 
-        
 
     } catch (error) {
         console.error('An error occurred:', error);
