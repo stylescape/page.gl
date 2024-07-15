@@ -170,6 +170,8 @@ markdown_extensions:
 nav:
   - Introduction: 'index.md'
   - Quick Start: 'quick_start.md'
+  - Reference:
+      - 'Tags': 'tags.md'
   - Resources:
       - 'Glossary': 'resources/glossary.md'
       - 'Links': 'resources/links.md'
