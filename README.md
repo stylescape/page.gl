@@ -46,13 +46,6 @@
 
 Welcome to `page.gl`, a comprehensive collection of layout templates created using Jinja. These templates are designed to simplify the process of web page creation, offering a variety of layouts that cater to different styles and purposes. Whether you're building a personal blog, a business site, or a creative portfolio, `page.gl` has something to offer.
 
-## Features
-
-- **Diverse Collection of Layouts**: Choose from a wide range of template designs, from minimalistic to complex.
-- **Jinja-Powered Templates**: Easy integration with Python-based web applications.
-- **Responsive Design**: All templates are built to be fully responsive, ensuring compatibility with various devices and screen sizes.
-- **Well-Documented Code**: Each template is thoroughly documented, making customization and integration straightforward.
-
 ## Installation
 
 To use `page.gl` templates in your project, follow these simple steps:
