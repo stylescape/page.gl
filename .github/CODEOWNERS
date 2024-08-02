@@ -1,0 +1,14 @@
+# Code Owners
+
+## Global
+
+* @scape-agency @vanvianen
+
+## Documentation
+
+README.md   @vanvianen
+/docs/      @vanvianen
+
+## Jinja
+
+*.jinja     @vianen
