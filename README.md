@@ -1,21 +1,21 @@
 <div align="right">
 
-[![GitHub License](https://img.shields.io/github/license/scape-agency/page.gl?style=flat-square&logo=readthedocs&logoColor=FFFFFF&label=&labelColor=%23041B26&color=%23041B26&link=LICENSE)](https://github.com/scape-agency/page.gl/blob/main/LICENSE)
-[![devContainer](https://img.shields.io/badge/Container-Remote?style=flat-square&logo=visualstudiocode&logoColor=%23FFFFFF&label=Remote&labelColor=%23041B26&color=%23041B26)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/scape-agency/page.gl)
+[![GitHub License](https://img.shields.io/github/license/stylescape/page.gl?style=flat-square&logo=readthedocs&logoColor=FFFFFF&label=&labelColor=%23041B26&color=%23041B26&link=LICENSE)](https://github.com/stylescape/page.gl/blob/main/LICENSE)
+[![devContainer](https://img.shields.io/badge/Container-Remote?style=flat-square&logo=visualstudiocode&logoColor=%23FFFFFF&label=Remote&labelColor=%23041B26&color=%23041B26)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/stylescape/page.gl)
 
 </div>
 
 ---
 
 <div>
-    <img align="right" src="https://raw.githubusercontent.com/scape-agency/brand/master/src/logo/page.gl.png" width="96" alt="page.gl logo">
+    <img align="right" src="https://raw.githubusercontent.com/stylescape/brand/master/src/logo/page.gl.png" width="96" alt="page.gl logo">
     <h1 align="left">page.gl</h1>
     <h3 align="left">Stylescape Layout Template Library</h3>
 </div>
 
 ---
 
-<img align="right" width="50%" src="https://raw.githubusercontent.com/scape-agency/page.gl/main/res/page.gl.png" alt="page.gl cover">
+<img align="right" width="50%" src="https://raw.githubusercontent.com/stylescape/page.gl/main/res/page.gl.png" alt="page.gl cover">
 
 ### Contents
 
@@ -32,11 +32,11 @@
 
 <div align="right">
 
-[![Report a Bug](https://img.shields.io/badge/Report%20a%20Bug-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/scape-agency/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=bug_report.yml)
-[![Request a Feature](https://img.shields.io/badge/Request%20a%20Feature-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/scape-agency/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=feature_request.yml)
-[![Ask a Question](https://img.shields.io/badge/Ask%20a%20Question-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/scape-agency/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=question.yml)
-[![Make a Suggestion](https://img.shields.io/badge/Make%20a%20Suggestion-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/scape-agency/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=suggestion.yml)
-[![Start a Discussion](https://img.shields.io/badge/Start%20a%20Discussion-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/scape-agency/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=discussion.yml)
+[![Report a Bug](https://img.shields.io/badge/Report%20a%20Bug-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/stylescape/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=bug_report.yml)
+[![Request a Feature](https://img.shields.io/badge/Request%20a%20Feature-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/stylescape/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=feature_request.yml)
+[![Ask a Question](https://img.shields.io/badge/Ask%20a%20Question-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/stylescape/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=question.yml)
+[![Make a Suggestion](https://img.shields.io/badge/Make%20a%20Suggestion-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/stylescape/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=suggestion.yml)
+[![Start a Discussion](https://img.shields.io/badge/Start%20a%20Discussion-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/stylescape/page.gl/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=discussion.yml)
 
 </div>
 
@@ -55,7 +55,7 @@ To use `page.gl` templates in your project, follow these simple steps:
 1. **Clone the Repository**
 
    ``` sh
-   git clone https://github.com/scape-agency/page.gl.git
+   git clone https://github.com/stylescape/page.gl.git
    ```
 
 2. **Navigate to the Repository**
@@ -94,7 +94,7 @@ npm i page.gl
 Scape Agency is a spatial innovation collective that dreams, discovers and designs the everyday of tomorrow. We blend design thinking with emerging technologies to create a brighter perspective for people and planet. Our products and services naturalise technology in liveable and sustainable –scapes that spark the imagination and inspire future generations.
 
 - website: [scape.agency](https://www.scape.agency "Scape Agency website")
-- github: [github.com/scape-agency](https://github.com/scape-agency "Scape Agency GitHub")
+- github: [github.com/stylescape](https://github.com/stylescape "Scape Agency GitHub")
 
 ### Links
 
@@ -120,7 +120,7 @@ Except as otherwise noted, the content in this repository is licensed under the
 [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/), and
 code samples are licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
 
-Also see [LICENSE](https://github.com/scape-agency/community/blob/master/src/LICENSE) and [LICENSE-CODE](https://github.com/scape-agency/community/blob/master/src/LICENSE-CODE).
+Also see [LICENSE](https://github.com/stylescape/community/blob/master/src/LICENSE) and [LICENSE-CODE](https://github.com/stylescape/community/blob/master/src/LICENSE-CODE).
 
 #### Disclaimer
 
