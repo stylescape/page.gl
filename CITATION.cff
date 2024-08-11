@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: page.gl
 version: 0.0.4
 date-released: 2024-01-01
-url: "https://github.com/scape-agency/page.gl"
+url: "https://github.com/stylescape/page.gl"
 message: >-
   If you use page.gl, please cite it using
   the metadata from this file.
