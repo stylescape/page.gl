@@ -20,10 +20,10 @@
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/scape-agency/page.gl.git"
+        "url": "git+https://github.com/stylescape/page.gl.git"
     },
     "bugs": {
-        "url": "https://github.com/scape-agency/page.gl/issues"
+        "url": "https://github.com/stylescape/page.gl/issues"
     },
     "funding": [
         {
