@@ -85,7 +85,7 @@
         "sass": "^1.69.6",
         "sass-loader": "^16.0.0",
         "simple-nunjucks-loader": "^3.2.0",
-        "style-loader": "^3.3.3",
+        "style-loader": "^4.0.0",
         "ts-loader": "^9.4.3",
         "ts-node": "^10.9.1",
         "typescript": "^5.3.3",
