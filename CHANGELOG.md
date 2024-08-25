@@ -1,3 +1,1 @@
-# page.gl Changelog
-
-===================
+# Changelog
