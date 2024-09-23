@@ -67,7 +67,7 @@
         "glob": "^11.0.0",
         "html-webpack-plugin": "^5.5.3",
         "mini-css-extract-plugin": "^2.7.6",
-        "pack.gl": "^0.0.63",
+        "pack.gl": "^0.1.2",
         "postcss-loader": "^8.1.1",
         "postcss-preset-env": "^10.0.2",
         "prettier": "^3.0.3",
