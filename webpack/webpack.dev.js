@@ -5,15 +5,12 @@
 // Imports
 // ============================================================================
 
+import HtmlWebpackPlugin from "html-webpack-plugin";
 import webpack from "webpack";
-import paths from "./webpack.paths.js"
-import HtmlWebpackPlugin from "html-webpack-plugin"
-import MiniCssExtractPlugin from "mini-css-extract-plugin"
 // const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // fs = require('fs');
-import fs from "fs"
 // import glob from "glob"
-import { glob, globSync, globStream, globStreamSync, Glob } from 'glob'
+import { glob } from 'glob';
 
 // const glob = require('glob');
 
