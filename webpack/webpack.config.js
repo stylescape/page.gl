@@ -17,10 +17,10 @@ import configProduction from "./webpack.prod.js";
 
 /**
  * Merge Webpack Configuration
- * 
+ *
  * Merges the common configuration with environment-specific configurations
  * based on the build mode (development or production).
- * 
+ *
  * @param {object} env - The environment variables passed to the Webpack configuration.
  * @param {object} args - Arguments and options passed via the command line or scripts.
  * @return {object} - The merged Webpack configuration object.
